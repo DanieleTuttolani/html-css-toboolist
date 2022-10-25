@@ -39,6 +39,30 @@ body{
     padding: 10px;
     border-radius: 20px;
 }
+.strong{
+    font-weight: bold;
+    font-size: 25px;
+}
+.removed-dots{
+    list-style-type: none;
+}
+.true{
+    border-style: solid;
+    border-color: green;
+    border-radius: 100%;
+    border-width: thin;
+    color: green;
+    display: inline; 
+}
+.false{
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-radius: 100%;
+    border-width: thin;
+    color: rgb(255, 5, 5);
+    display: inline; 
+}
+
 /*first cell sections*/
 .input-bar{
     background-color: white;
@@ -51,4 +75,74 @@ body{
 }
 .task-cell-2{
     background-color: rgb(197, 197, 197);
+}
+
+/*lista*/
+.list{
+    background-color: white;
+    padding: 20px 30px;
+}
+.list-item{
+    font-size: 16px;
+    padding-left: 10px;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.team-blue{
+    background-color: #1ca9f5;
+    color: white;
+    width: 30px;
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.apice{
+    margin-top: 25px;
+}
+.team-purple{
+    background-color: #b865c9;
+    color: white;
+    width: 30px;
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.team-green{
+    background-color: #68b858;
+    color: white;
+    width: 30px;
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.team-orange{
+    background-color: #d46000;
+    color: white;
+    width: 30px;
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.team-pink{
+    background-color: #efadff;
+    color: white;
+    width: 30px;
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+.team-peas{
+    background-color: #cdff93;
+    color: white;
+    width: 30px;
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
 }
