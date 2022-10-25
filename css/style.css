@@ -5,8 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
+/*logo bar*/
 #logobar{
-margin: 10px;
+background-color: white;
 padding: 10px;
 }
 #logobar img{
@@ -19,8 +22,33 @@ vertical-align: top;
 display: inline;
 font-size: 2.7rem;
 }
+body{
+    background-color: rgb(245, 244, 244);
+}
 
 /*utilità*/
 .container{
-    margin: 150px;
+    margin: 50px 250px;
+    padding: 30px 50px;
+   
+}
+.cells{
+    border: 0;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 20px;
+}
+/*first cell sections*/
+.input-bar{
+    background-color: white;
+    padding: 10px 30px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(245, 244, 244);
+}
+.task-cell-1{
+    background-color: #1ca9f5;
+}
+.task-cell-2{
+    background-color: rgb(197, 197, 197);
 }
