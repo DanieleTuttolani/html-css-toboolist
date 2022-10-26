@@ -23,21 +23,21 @@ display: inline;
 font-size: 2.7rem;
 }
 body{
-    background-color: rgb(245, 244, 244);
+    background-color: rgb(230, 230, 230);
 }
 
 /*utilità*/
 .container{
-    margin: 50px 250px;
+    margin: 55px 25%;
     padding: 30px 50px;
-   
+   background-color: white;
 }
 .cells{
     border: 0;
     color: white;
     font-size: 1.2em;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .strong{
@@ -77,8 +77,11 @@ body{
     background-color: #1ca9f5;
 }
 .task-cell-2{
-    background-color: rgb(197, 197, 197);
-}
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+};
+
 
 /*lista*/
 .list{
@@ -91,67 +94,36 @@ body{
     font-size: 17px;
     margin: 20px;
 }
-
-.team-blue{
-    background-color: #1ca9f5;
-    color: white;
-    width: 30px;
-    display: inline;
-    padding: 5px;
-    border-radius: 20px;
-    margin-left: 15px;
-    cursor: pointer;
-}
 .apice{
     margin-top: 25px;
 }
-.team-purple{
+
+
+.team{
+    color: white;
+    width: 30px;
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.tm-blue{
+    background-color: #1ca9f5;
+}
+.tm-purple{
     background-color: #b865c9;
-    color: white;
-    width: 30px;
-    display: inline;
-    padding: 5px;
-    border-radius: 20px;
-    margin-left: 15px;
-    cursor: pointer;
 }
-.team-green{
+.tm-green{
     background-color: #68b858;
-    color: white;
-    width: 30px;
-    display: inline;
-    padding: 5px;
-    border-radius: 20px;
-    margin-left: 15px;
-    cursor: pointer;
 }
-.team-orange{
+.tm-orange{
     background-color: #d46000;
-    color: white;
-    width: 30px;
-    display: inline;
-    padding: 5px;
-    border-radius: 20px;
-    margin-left: 15px;
-    cursor: pointer;
 }
-.team-pink{
+.tm-pink{
     background-color: #efadff;
-    color: white;
-    width: 30px;
-    display: inline;
-    padding: 5px;
-    border-radius: 20px;
-    margin-left: 15px;
-    cursor: pointer;
 }
-.team-peas{
+.tm-peas{
     background-color: #cdff93;
-    color: white;
-    width: 30px;
-    display: inline;
-    padding: 5px;
-    border-radius: 20px;
-    margin-left: 15px;
-    cursor: pointer;
 }
